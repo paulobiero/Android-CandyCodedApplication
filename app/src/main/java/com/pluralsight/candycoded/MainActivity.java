@@ -28,7 +28,7 @@ import cz.msebera.android.httpclient.Header;
 public class MainActivity extends AppCompatActivity {
     private Candy[] candies;
     private CandyDbHelper candyDbHelper = new CandyDbHelper(this);
-    private MenuItem.OnMenuItemClickListener click;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
